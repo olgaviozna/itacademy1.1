@@ -6,7 +6,7 @@ import static hw2.Rainbow.colorOutput;
 
 public class Main {
     public static void main (String[] args) {
-        System.out.println ("Каждый(413) Охотник(415) Желает(417) Знать(419) Где(421) Сидит(423) Фазан(425)" + "\n" + "What colour do you want to get? Enter your number from 413 to 425:");
+        System.out.println ("РљР°Р¶РґС‹Р№(413) РћС…РѕС‚РЅРёРє(415) Р–РµР»Р°РµС‚(417) Р—РЅР°С‚СЊ(419) Р“РґРµ(421) РЎРёРґРёС‚(423) Р¤Р°Р·Р°РЅ(425)" + "\n" + "What colour do you want to get? Enter your number from 413 to 425:");
         Scanner scanner = new Scanner (System.in);
         int color;
         color = scanner.nextInt();
