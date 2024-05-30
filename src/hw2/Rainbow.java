@@ -5,47 +5,47 @@ public class Rainbow {
     public static int colorOutput (int color) {
         switch(color) {
             case 413:
-                System.out.println("Красный");
+                System.out.println("РљСЂР°СЃРЅС‹Р№");
                 break;
             case 415:
-                System.out.println("Оранжевый");
+                System.out.println("РћСЂР°РЅР¶РµРІС‹Р№");
                 break;
             case 417:
-                System.out.println("Желтый");
+                System.out.println("Р–С‘Р»С‚С‹Р№");
                 break;
             case 419:
-                System.out.println("Зеленый");
+                System.out.println("Р—РµР»С‘РЅС‹Р№");
                 break;
             case 421:
-                System.out.println("Голубой");
+                System.out.println("Р“РѕР»СѓР±РѕР№");
                 break;
             case 423:
-                System.out.println("Синий");
+                System.out.println("РЎРёРЅРёР№");
                 break;
             case 425:
-                System.out.println("Фиолетовый");
+                System.out.println("Р¤РёРѕР»РµС‚РѕРІС‹Р№");
                 break;
         }
 
         if (color%2 == 0) {
             switch(color) {
                 case 414:
-                    System.out.println("Красно-оранжевый");
+                    System.out.println("РљСЂР°СЃРЅРѕ-РѕСЂР°РЅР¶РµРІС‹Р№");
                     break;
                 case 416:
-                    System.out.println("Оранжево-жёлтый");
+                    System.out.println("РћСЂР°РЅР¶РµРІРѕ-Р¶С‘Р»С‚С‹Р№");
                     break;
                 case 418:
-                    System.out.println("Жёлто-зелёный");
+                    System.out.println("Р–С‘Р»С‚Рѕ-Р·РµР»С‘РЅС‹Р№");
                     break;
                 case 420:
-                    System.out.println("Зелёно-голубой");
+                    System.out.println("Р—РµР»С‘РЅРѕ-РіРѕР»СѓР±РѕР№");
                     break;
                 case 422:
-                    System.out.println("Голубо-синий");
+                    System.out.println("Р“РѕР»СѓР±Рѕ-СЃРёРЅРёР№");
                     break;
                 case 424:
-                    System.out.println("Сине-фиолетовый");
+                    System.out.println("РЎРёРЅРµ-С„РёРѕР»РµС‚РѕРІС‹Р№");
                     break;
             }
         }
