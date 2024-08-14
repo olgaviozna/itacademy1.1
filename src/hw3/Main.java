@@ -43,8 +43,8 @@ public class Main {
         } while (j < 10);
 
        for (Cat cat : cats) {
-           cats[x] = new Cat(getRandomChar(), getRandomAge());
-           System.out.println(cats[x]);
+           cat = new Cat(getRandomChar(), getRandomAge());
+           System.out.println(cat);
            x++;
            if (x == 5) {
                break;
